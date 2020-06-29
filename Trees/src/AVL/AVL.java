@@ -119,28 +119,28 @@ public class AVL
            A   B                     
 
     rotation = 2 is double left rotation        
-                 z                            x
+                 z                            y
                 / \                          / \
-               y   D                        y   z
+               x   D                        x   z
               / \                          / \ / \
-             A   x           becomes      A  B C  D            
+             A   y           becomes      A  B C  D            
                 / \                     
                B   C                     
 
     rotation = 3 is single right rotation
-                 z                            y
+                 x                            y
                 / \                          / \
-               A   y                        z   x
+               A   y                        x   z
                   / \                      / \ / \
-                 B   x       becomes      A  B C  D            
+                 B   z       becomes      A  B C  D            
                     / \                     
                    C   D                     
     rotation = 4 is double right rotation
-                 z                            x
+                 x                            y
                 / \                          / \
-               A   y                        z   y
+               A   z                        x   z
                   / \                      / \ / \
-                 x   D       becomes      A  B C  D            
+                 y   D       becomes      A  B C  D            
                 / \                     
                B   C                     
     */
