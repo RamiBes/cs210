@@ -155,7 +155,7 @@ public class Sorts
         
         long t2 = System.nanoTime();
         double time = (t2-t1) / 1000000.0;
-        System.out.println("Sort completed in: " + time + " seconds");
+        System.out.println("Sort completed in: " + time + " milli-seconds");
         System.out.println("+++++++++++++++++++++++++++++++++++");
         
     }
